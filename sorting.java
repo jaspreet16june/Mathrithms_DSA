@@ -1,6 +1,11 @@
 import java.io.*;
 import java.util.*;
 
+    // it basicallky sorts n-1 times the length of array 
+    // first for loop is to iterate the array n-1 times the length of array
+    // assume that first element is alredy sorted .
+    // jth for loop iterate fromm second element
+    // and swap if the th element is smaller than its previous ones if not it automatically breaks.  
 public class Main {
 
   public static void insertionSort(int[] arr) {
@@ -13,10 +18,8 @@ public class Main {
             }else{
                 break;
             }
-        }
-        
+        }   
     }
-    
   }
 
   // used for swapping ith and jth elements of array
